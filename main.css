@@ -21,15 +21,15 @@ body .text {
     width: 90vw;
     height: 20vh;
     font-size: 30px;
-    color: blue;
-    background-color: #fff;
-    border: 3px solid blue;
+    color: #fff;
+    background-color: blue;    
     transition: all 0.3s ease;
 }
 
 .text #clickMe:hover {
-    background-color: blue;
-    color: #fff;
+    background-color: #fff;
+    color: blue;
+    border: 3px solid blue;
     cursor: pointer;
 }
 
