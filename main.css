@@ -17,6 +17,13 @@ body .text {
     font-size: 36px;
 }
 
+.text #clickMe {
+    width: 90vw;
+    height: 20vh;
+    font-size: 30px;
+    color: blue;
+}
+
 .text .paragraph {
     font-size: 30px;
 }

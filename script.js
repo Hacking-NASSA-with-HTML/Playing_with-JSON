@@ -15,9 +15,20 @@ let userJSONdata = `{
 
 let extractedJson = JSON.parse(userJSONdata);
 
-clickedButton.addEventListener('click', function() {
+/*clickedButton.addEventListener('click', function() {
     printedParagraph.innerHTML = extractedJson.name + ', ' + extractedJson.age + ', ' + extractedJson.city;
-})
+    clickedButton.innerHTML = 'click me again to cancel JSON adding';
+})*/
+
+clickedButton.onclick = function() {
+    if (printedParagraph.innerHTML == 'There\'s no JSON right now') {
+        printedParagraph.innerHTML = extractedJson.name + ', ' + extractedJson.age + ', ' + extractedJson.city;
+        clickedButton.innerHTML = 'click me again to cancel JSON adding';
+    } else {
+        printedParagraph.innerHTML = 'There\'s no JSON right now';
+        clickedButton.innerHTML = 'click me to add JSON data to paragraph';
+    }
+};
 
 
 console.log(extractedJson);
