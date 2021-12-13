@@ -1,0 +1,23 @@
+body .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.text h1 {
+    display: flex;
+    color: blue;
+    text-align: center;
+}
+
+.text .json-go {
+    color: tomato;
+    font-size: 36px;
+}
+
+.text .paragraph {
+    font-size: 30px;
+}
+
