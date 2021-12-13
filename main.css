@@ -13,7 +13,7 @@ body .text {
 }
 
 .text .json-go {
-    color: tomato;
+    color: #ff6347;
     font-size: 36px;
 }
 
@@ -22,6 +22,15 @@ body .text {
     height: 20vh;
     font-size: 30px;
     color: blue;
+    background-color: #fff;
+    border: 3px solid blue;
+    transition: all 0.3s ease;
+}
+
+.text #clickMe:hover {
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
 }
 
 .text .paragraph {
