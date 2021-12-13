@@ -21,11 +21,11 @@ let extractedJson = JSON.parse(userJSONdata);
 })*/
 
 clickedButton.onclick = function() {
-    if (printedParagraph.innerHTML == 'There\'s no JSON right now') {
+    if (printedParagraph.innerHTML == 'There\'s no JSON data right now') {
         printedParagraph.innerHTML = extractedJson.name + ', ' + extractedJson.age + ', ' + extractedJson.city;
         clickedButton.innerHTML = 'click me again to cancel JSON adding';
     } else {
-        printedParagraph.innerHTML = 'There\'s no JSON right now';
+        printedParagraph.innerHTML = 'There\'s no JSON data right now';
         clickedButton.innerHTML = 'click me to add JSON data to paragraph';
     }
 };
