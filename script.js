@@ -6,7 +6,7 @@ let clickedButton = document.getElementById('clickMe');
 console.log('Hi, Vyacheslav Victorovich');
 
 let userJSONdata = `{
-    "name": "Mike G",
+    "name": "Mike Goldberg",
     "age": 29,
     "city": "Los Angeles"
 }`;
